@@ -1,5 +1,5 @@
 export type AuthFrom = {
-  emial: string;
+  email: string;
   password: string;
 };
 export type EditedTask = {
