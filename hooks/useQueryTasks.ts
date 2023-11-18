@@ -19,6 +19,4 @@ export const useQueryTasks = () => {
         router.push("/");
     },
   });
-
-  return;
 };

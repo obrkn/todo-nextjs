@@ -13,7 +13,7 @@ export const useMutateTask = () => {
   const createTaskMutation = useMutation(
     async (task: Omit<EditedTask, "id">) => {
       const res = await axios.post(
-        `${process.env.NEXT_ENV_PUBLIC_API_URL}/todo`,
+        `${process.env.NEXT_PUBLIC_API_URL}/todo`,
         task
       );
       return res.data;
